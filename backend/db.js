@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const mongoURI="mongodb://0.0.0.0:27017/inotebook"
+const mongoURI="mongodb+srv://ngpt11996:Q5LaxjHGhxcEPpPM@cluster0.ofudtej.mongodb.net/?retryWrites=true&w=majority"
 
 const connectToMongo= ()=>{
     mongoose.connect(mongoURI).then(()=>{
