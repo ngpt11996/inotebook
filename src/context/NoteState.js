@@ -15,7 +15,7 @@ const NoteState = (props) => {
     //         })
     //     },1000);
     // }
-    const HOST="http://localhost:5000/api/notes";
+    const HOST="https://inotebook-backend-jvz5.onrender.com/api/notes";
     const addNote = async (note) => {
         const url=`${HOST}/addnote`
         const response = await fetch(url, {

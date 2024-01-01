@@ -11,7 +11,7 @@ const Signup = (props) => {
 
     const onSubmit=async (e)=>{
         e.preventDefault();
-        const url="http://localhost:5000/api/auth/createuser";
+        const url="https://inotebook-backend-jvz5.onrender.com/api/auth/createuser";
         const response = await fetch(url, {
             method: "POST",
             headers: {

@@ -9,7 +9,7 @@ const Login = (props) => {
   const onSubmit= async (e)=>{
     e.preventDefault();
     console.log("onSubmit"+credentials.email+" "+credentials.password);
-    const url="http://localhost:5000/api/auth/login";
+    const url="https://inotebook-backend-jvz5.onrender.com/api/auth/login";
     const response = await fetch(url, {
         method: "POST",
         headers: {
